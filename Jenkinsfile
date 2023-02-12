@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git branch: 'main',
                 credentialsId: 'git-hub-credentials',
-                url: 'https://github.com/Rahul302619/ci-cd-sample.git'
+                url: 'https://github.com/Rahul302619/spring-boot-jenkins-sample.git'
             }
         }
         stage('Build') {
