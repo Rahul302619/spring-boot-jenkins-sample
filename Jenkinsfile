@@ -26,6 +26,8 @@ pipeline {
 
                 //run springboot application in attached mode
                  bat 'mvn spring-boot:run'
+
+                 //sh 'nohup ./mvnw spring-boot:run -Dserver.port=8001 &' -> for detach mode
             }
         }
     }
